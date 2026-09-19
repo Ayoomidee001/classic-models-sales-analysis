@@ -2,7 +2,7 @@ Project Overview
 This project analyzes sales performance for the Classic Models business using SQL and Power BI.
 The goal was to transform raw transactional data into meaningful business insights around revenue, customers, products, sales representatives, order trends, and operational performance.
 The project combines 25 business-focused SQL queries with an interactive 3-page Power BI dashboard to demonstrate practical data analysis and business intelligence skills.
-________________________________________
+
 Tools & Technologies
 ●	MySQL — Data querying and business analysis
 ●	Power BI — Interactive dashboard and data visualization
@@ -60,6 +60,16 @@ Operations & Risk
 23.	Fulfillment Time by Product Line
 24.	Customers with Outstanding Credit Exposure
 25.	Top 10 Customers' Revenue Percentage
-26.	
+
+Power BI Dashboard
+Key Insights
+The analysis provides visibility into several important areas of the business:
+●	Revenue performance can be analyzed across product lines, countries, customers, and sales representatives.
+●	A relatively small group of high-value customers contributes a significant portion of overall revenue.
+●	Product-level analysis highlights the products driving both revenue and unit volume.
+●	Monthly and yearly analysis provides insight into sales trends and growth patterns.
+●	Fulfillment analysis helps identify differences in delivery performance across product lines.
+●	Customer payment and credit analysis provides an additional view of customer financial exposure.
+
 The SQL file is available in the repository:
 Classic_Models_Sales_Analysis.sql
