@@ -61,7 +61,51 @@ Operations & Risk
 24.	Customers with Outstanding Credit Exposure
 25.	Top 10 Customers' Revenue Percentage
 
+The SQL file is available in the repository:
+Classic_Models_Sales_Analysis.sql
+
 Power BI Dashboard
+
+The Power BI dashboard consists of three pages.
+
+1.Sales Performance Overview
+Provides a high-level view of overall sales performance.
+Key KPIs:
+●	Total Revenue: $9.60M
+●	Total Orders: 326
+●	Total Units Sold: 106K
+●	Total Customers: 122
+●	Average Order Value: $29.46K
+Visuals include:
+●	Monthly Revenue Trend
+●	Revenue by Product Line
+●	Revenue by Country
+
+2. Customer & Sales Performance
+Focuses on customer contribution and sales representative performance.
+Key KPIs:
+●	Total Customers: 122
+●	Active Customers: 98
+●	Average Revenue per Active Customer: $98K
+●	Top Customer Revenue: $820.69K
+Visuals include:
+●	Customer Payment Analysis
+●	Top 10 Customers by Revenue
+●	Revenue by Sales Representative
+
+3. Product & Operations Performance
+
+Examines product performance and order fulfillment.
+Key KPIs:
+●	Total Units Sold: 106K
+●	Total Revenue: $9.60M
+●	Average Fulfillment Time: ~29 Days
+Visuals include:
+●	Top 10 Products by Revenue
+●	Top 10 Products by Units Sold
+●	Average Fulfillment Time by Product Line
+●	Order Status Distribution
+
 Key Insights
 The analysis provides visibility into several important areas of the business:
 ●	Revenue performance can be analyzed across product lines, countries, customers, and sales representatives.
@@ -71,5 +115,48 @@ The analysis provides visibility into several important areas of the business:
 ●	Fulfillment analysis helps identify differences in delivery performance across product lines.
 ●	Customer payment and credit analysis provides an additional view of customer financial exposure.
 
-The SQL file is available in the repository:
-Classic_Models_Sales_Analysis.sql
+ Project Structure
+classic-models-sales-analysis/
+│
+├── README.md
+│
+├── Classic_Models_Sales_Analysis.sql
+│
+└── dashboard/
+    ├── sales-performance-overview.png
+    ├── customer-sales-performance.png
+    └── product-operations-performance.png
+
+
+Dashboard Preview
+Sales Performance Overview
+ 
+Customer & Sales Performance
+ 
+Product & Operations Performance
+ 
+
+Skills Demonstrated
+This project demonstrates practical experience with:
+●	SQL data analysis
+●	Complex table joins
+●	Aggregations and calculations
+●	Common Table Expressions (CTEs)
+●	Window functions
+●	Date and time analysis
+●	Customer segmentation
+●	Revenue analysis
+●	Product performance analysis
+●	Sales representative analysis
+●	Operational performance analysis
+●	Power BI dashboard development
+●	KPI design
+●	Data visualization
+●	Business-focused storytelling
+●	GitHub project documentation
+
+ Project Purpose
+This project was created as part of my data analytics portfolio to demonstrate how SQL and Power BI can be used together to transform transactional data into actionable business insights.
+Tools: MySQL | Power BI | SQL | GitHub
+
+
